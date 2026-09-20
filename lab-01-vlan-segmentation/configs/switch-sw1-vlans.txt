@@ -1,0 +1,20 @@
+SW1#show vlan brief
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Et2/1, Et2/2, Et2/3
+                                                 Et3/0, Et3/1, Et3/2, Et3/3
+10   DIRECTION                        active    Et0/1, Et0/2
+20   RH-FINANCE                       active    Et0/3, Et1/0
+30   DSI                              active    Et1/1
+40   PRODUCTION-SERVEURS              active    Et1/2
+66   INVITES                          active    Et1/3
+99   MANAGEMENT                       active    Et2/0
+1002 fddi-default                     act/unsup
+1003 token-ring-default               act/unsup
+1004 fddinet-default                  act/unsup
+1005 trnet-default                    act/unsup
+
+Note : le VLAN 30 est nommé "DSI" sur le switch (Direction des Systèmes d'Information),
+équivalent du "IT-DEV" utilisé dans la documentation (README, plan d'adressage, matrice de
+flux). Fonctionnellement identique — nommage à harmoniser dans une future itération.
